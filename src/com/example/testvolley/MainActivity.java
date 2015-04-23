@@ -22,6 +22,11 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.base.interfaces.IResponse;
 
+/**
+ * 可以在volley 的基础上做简单的封装   满足通讯协议的要求  可以使用 JsonObjectRequest StringRequest等
+ * @author Administrator
+ *
+ */
 public class MainActivity extends Activity {
 
 	// public final static String URL = "http://192.168.1.97/AppServer3/";
